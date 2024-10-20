@@ -1,5 +1,10 @@
-body {
-  background-color: red;
+:root {
+  --branding-color: black;
+  --accent-color: white;
+}
+.hero {
+  max-width: 100%;
+  text-align: center;
 }
 h1 {
   color: white;
@@ -32,6 +37,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: var(--accent-color);
 }
 
 .roboto-black {
