@@ -15,7 +15,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 50px 500px;
+  padding: 50px 300px;
 }
 button {
   background-color: var(--accent-color);
@@ -26,10 +26,22 @@ button {
   font-weight: 400;
   font-style: normal;
 }
+img {
+  height: 200px;
+  width: 200px;
+  padding: 15px;
+}
+footer {
+  padding: 0 200px 0 200px;
+  width: 100%;
+  color: var(--accent-color);
+  background-color: #2b3035;
+}
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
+  line-height: 10px;
 }
 
 .roboto-light {
