@@ -7,10 +7,33 @@
   text-align: center;
   padding: 100px;
 }
+.about {
+  color: var(--accent-color);
+  max-width: 100%;
+  text-align: center;
+  padding: 100px;
+}
+
+.about h1 {
+  font-size: 64px;
+}
+.about h2 {
+  font-size: 18px;
+}
+.about a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+.about a :hover {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+.portrait {
+}
 h1 {
   color: var(--accent-color);
 }
-p {
+.hero p {
   color: var(--accent-color);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
